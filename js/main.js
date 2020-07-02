@@ -5,7 +5,9 @@ alert("Bonjour et bienvenue");
 //Empêcher une entrée de nom à plus de 20 caractères, condition
 var userName = prompt("Entrez votre nom");
 console.log(userName);
-
+function () {
+    console.log(`${str} ${str.length}`);
+}
 
     
 //Permettre à l'utilisateur de rentrer une valeur choisie
