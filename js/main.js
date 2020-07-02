@@ -1,22 +1,19 @@
 //Accueil de l'utilisateur
 alert("Bonjour et bienvenue");
+
  
 //Permettre à l'utilisateur de rentrer et conserver son nom
-//Empêcher une entrée de nom à plus de 20 caractères, condition
 var userName = prompt("Entrez votre nom");
 console.log(userName);
-function () {
-    console.log(`${str} ${str.length}`);
-}
 
-    
+ 
 //Permettre à l'utilisateur de rentrer une valeur choisie
-//Conditions : if, else,
-
+var userChoice = prompt("Faites votre choix : pierre, feuille, ciseau");
+console.log(userChoice);
 
 
 //Générer un choix au hasard pour l'ordinateur
-//Math.random
+//(Math.random)
 
 
 //Afficher le choix du joueur et de l'ordinateur
@@ -28,3 +25,6 @@ function () {
 
 
 //Afficher le vainqueur
+
+
+//README.md
