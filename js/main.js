@@ -19,21 +19,19 @@ var computerChoice = choiceAleatoire();
 //Afficher le choix du joueur et de l'ordinateur
 alert("Le joueur a choisi " + userChoice + " L'ordinateur a choisi " + computerChoice);
 
-//Comparer choix joueur et ordinateur, feuille > pierre > ciseaux > feuille
-var compareChoices
+//Comparer choix joueur et ordinateur (feuille > pierre > ciseaux > feuille)
 if (userChoice === computerChoice) {
     alert("Égalité");
 }
-else if("feuille" > "pierre");
-else if("pierre" > "ciseaux");
-else if("ciseaux" > "feuille");
-
-
-// else if ('feuille' < 'ciseaux' < 'pierre' < 'feuille') {
-//    
-// }
+else if (userChoice === "feuille" && computerChoice === "pierre" || 
+userChoice === "pierre" && computerChoice === "ciseaux" ||
+userChoice === "ciseaux" && computerChoice === "feuille") {
+    alert("Vous avez gagné");
+} 
+else{
+    alert("Vous avez perdu");
+}
 
 //Afficher le vainqueur
-
 
 //README.md
