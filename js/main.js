@@ -17,13 +17,21 @@ function choiceAleatoire() {
 var computerChoice = choiceAleatoire();
 
 //Afficher le choix du joueur et de l'ordinateur
+alert("Le joueur a choisi " + userChoice + " L'ordinateur a choisi " + computerChoice);
 
-//Récupérer choix joueur et ordinateur
+//Comparer choix joueur et ordinateur, feuille > pierre > ciseaux > feuille
+var compareChoices
+if (userChoice === computerChoice) {
+    alert("Égalité");
+}
+else if("feuille" > "pierre");
+else if("pierre" > "ciseaux");
+else if("ciseaux" > "feuille");
 
-//Déterminer le vainqueur 
 
-//Comparer choix joueur et ordinateur
-
+// else if ('feuille' < 'ciseaux' < 'pierre' < 'feuille') {
+//    
+// }
 
 //Afficher le vainqueur
 
