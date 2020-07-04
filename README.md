@@ -38,9 +38,9 @@ Attention par contre sa saisie est insensible à la casse, c’est à dire que P
 
 ## **Définitions** 
 
-**Javascript:** : *langage informatique utilisé sur les pages web (à la particularité de s'activer sur un poste client).*
-**Repository** : *est un stockage centralisé et organisé de données. Ce peut être une ou plusieurs bases de données où les fichiers sont localisés en vue de leur distribution sur le réseau 
+-**Javascript:** : *langage informatique utilisé sur les pages web (à la particularité de s'activer sur un poste client).*
+-**Repository** : *est un stockage centralisé et organisé de données. Ce peut être une ou plusieurs bases de données où les fichiers sont localisés en vue de leur distribution sur le réseau 
                    ou bien un endroit directement accessible aux utilisateurs.*
-**GitHub** : *est un service web d'hébergement et de gestion de développement de logiciels.*
-**Commit** : *permet via un message d'indiquer les changements effectués dans un projet avant son hébergement sur GitHub.*
-**Fonction** : *partie d'un programme ou d'un sous-programme ayant la capacité d'effectuer un calcul ou une tâche indépendamment du programme.*
+-**GitHub** : *est un service web d'hébergement et de gestion de développement de logiciels.*
+-**Commit** : *permet via un message d'indiquer les changements effectués dans un projet avant son hébergement sur GitHub.*
+-**Fonction** : *partie d'un programme ou d'un sous-programme ayant la capacité d'effectuer un calcul ou une tâche indépendamment du programme.*
