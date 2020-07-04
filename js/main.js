@@ -17,21 +17,32 @@ function choiceAleatoire() {
 var computerChoice = choiceAleatoire();
 
 //Afficher le choix du joueur et de l'ordinateur
-alert("Le joueur a choisi " + userChoice + " L'ordinateur a choisi " + computerChoice);
+alert("Vous avez choisi " + userChoice + " L'ordinateur a choisi " + computerChoice);
 
 //Comparer choix joueur et ordinateur (feuille > pierre > ciseaux > feuille)
 if (userChoice === computerChoice) {
     alert("Égalité");
+    alert("C'est n'importe quoi " + userName);
 }
 else if (userChoice === "feuille" && computerChoice === "pierre" || 
 userChoice === "pierre" && computerChoice === "ciseaux" ||
 userChoice === "ciseaux" && computerChoice === "feuille") {
     alert("Vous avez gagné");
+    alert("Bien joué, mais quel BG ce " + userName);
 } 
 else{
     alert("Vous avez perdu");
+    alert("Nul, nul, nul et nul " + userName);
 }
 
-//Afficher le vainqueur
+//Afficher le vainqueur (userName || computer)
 
-//README.md
+//README.md (description, mots-clés, commits)
+
+//Faire une partie en plusieurs manches (compter les points)
+
+//Vérifier saisies utilisateur (entre 2 et 20 caractères + la casse)
+
+//Permettre de rejouer une partie
+
+//Organisation avec des fonctions
