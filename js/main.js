@@ -36,10 +36,13 @@ else{
 }
 
 //Afficher le vainqueur (userName || computer)
-// if(userChoice === computerChoice){
-//     alert("Bien joué " + userName);
-// }
-// else if (userChoice >= computerChoice) {
-//     alert("Nul, nul, nul et nul");
-// }
+
 //README.md (description, mots-clés, commits)
+
+//Faire une partie en plusieurs manches (compter les points)
+
+//Vérifier saisies utilisateur (entre 2 et 20 caractères + la casse)
+
+//Permettre de rejouer une partie
+
+//Organisation avec des fonctions
