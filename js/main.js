@@ -37,3 +37,60 @@ alert("Vous avez choisi " + userChoice + " - " + " L'ordinateur a choisi " + com
     }
 
   
+// //Correction shifoumi
+
+// // Faire une partie en plusieurs manches (compter les points)
+// var scores = {
+//     "user" : 0,
+//     "computer" : 0
+// };
+
+// //FUNCTIONS
+// //Vérifier saisies utilisateur (entre 2 et 20 caractères + la casse)
+// function checkUserNameLength() {  
+//      var userName = prompt("Entrez votre nom ");
+//      while(userName.length < 2 || userName.length > 20){
+//      var userName = prompt("Votre nom doit être compris entre 2 et 20 caractères")
+//      }
+//      return userName;    
+// }
+
+// // Donner un point au joueur || ordinateur
+// function increaseScores(scores, result) {
+//     if(result === 1) {
+//         scores.user++;
+//     }
+//     else if(result === -1) {
+//         scores.computer++;
+//     }
+//     return scores;
+// }
+
+// // Montrer le résultat
+// function showResult(result, userName) {
+//     if(result === 1) {
+//         return alert(userName + " gagne !");
+//     }
+//     else if(result === 0) {
+//         return alert("Egalité !");
+//     }
+//     else {
+//         return  alert("L'ordinateur gagne !");
+//     }
+// }
+
+// // //Permettre de rejouer une partie  
+// function newGame() {
+//     scores = {
+//         user: 0,
+//         computer: 0
+//     }
+//     replayGame();
+//     var replay = prompt("Voulez-vous rejouer ? (Oui/Non)").toLowerCase();
+//     if(replay === "Oui") {
+//         newGame();
+//     }
+// } 
+
+// var maxRound = 3;
+
